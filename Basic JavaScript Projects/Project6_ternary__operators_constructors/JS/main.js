@@ -25,7 +25,7 @@ function myFunction () {
     document.getElementById("Keywords_and_Constructors").innerHTML="Erik drives a "+Erik.Vehicle_Color+ "-colored "+ Erik.Vehicle_Model+" manufactured in "+ Erik.Vehicle_Year;
 }
 
-function Bigcat(Type, Size, Location, Color) { //New keyword assignment
+function Bigcat(Type, Size, Location, Color) { //New and this keyword assignment, Object Constructor(Big Cat)
     this.Bigcat_Type= Type;
     this.Bigcat_Size= Size;
     this.Bigcat_Location= Location;
@@ -36,4 +36,14 @@ var Africa= new Bigcat("Lions", "450 lbs", "Kenya", "Goldish Brown");
 var South_America= new Bigcat("Jaguars", "210 lbs", "Amazon Rain Forest", "Tan with spots");
 function myCats () {
     document.getElementById("New_and_This").innerHTML="Asia has "+Asia.Bigcat_Type+ " that weigh "+Asia.Bigcat_Size+", lives in "+Asia.Bigcat_Location+", and whose colors are "+Asia.Bigcat_Color;
+}
+
+function up_Function() { //Nested Function
+    document.getElementById("Nested_Function").innerHTML=Count();
+    function Count() {
+        var Starting_point= 2;
+        function Plus_two() {Starting_point += 2;}
+        Plus_two();
+        return Starting_point;
+    }
 }
