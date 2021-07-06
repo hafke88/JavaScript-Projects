@@ -9,3 +9,4 @@ function string(){
 function number(){
     document.getElementById("wrong").innerHTML=isNaN('007');
 }
+
