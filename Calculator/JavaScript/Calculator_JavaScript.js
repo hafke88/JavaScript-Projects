@@ -1,7 +1,7 @@
 //creates an object to keep track of values
 const Calculator = {
     // this is displays 0 on the screen
-    Display_Valuue: '0',
+    Display_Value: '0',
     // this will hold the first operand for any expressions, we set it to null for now
     First_Operand: null,
     // this checks whether or not the second operand has been input
