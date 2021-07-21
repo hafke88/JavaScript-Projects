@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JSON Parse</h1>
+
+<p>The value of "lastName" is:</p>
+
+<p id="parse"></p>
+
+<script>
+var obj = JSON.parse('{"firstName":"Erik", "lastName":"Hafke"}');
+
+document.getElementById("parse").innerHTML = obj.lastName;
+</script>
+
+</body>
+</html>
