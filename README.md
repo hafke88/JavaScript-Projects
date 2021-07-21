@@ -12,4 +12,7 @@ Projects
   - Calculator
     - This functional calculator allows for you to add, subtract, multiply and divide.
 
+
+
+
 All other folders in the JavaScript Projects folder are simple assignments executing different commands in JavaScript. 
